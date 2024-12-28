@@ -1,0 +1,25 @@
+git init
+git add index.html
+git rm --cached index.html
+git add *
+git commit -m "first version"
+git config --list
+git log
+-------------------------
+ssh-keygen -t ed25519 -C "sushantpatil@8896@gmail.com"
+========
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+========
+Add the SSH Key to GitHub:
+
+Go to GitHub SSH settings.
+Click New SSH Key.
+Paste your SSH public key and give it a title.
+Save the key.
+
+========
+
+git push -f git@github.com:sushant1041/Git.git master
+
+========
